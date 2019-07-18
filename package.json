@@ -2,6 +2,11 @@
   "name": "i18next-react-native-async-storage",
   "version": "1.0.2",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "repository": "github.com/0xClpz/i18next-react-native-async-storage",
   "author": "Antonio Calapez <antonio.root@gmail.com>",
   "license": "MIT",
@@ -12,5 +17,11 @@
     "i18next",
     "async-storage",
     "Asyng storage"
-  ]
+  ],
+  "devDependencies": {
+    "i18next": "13.0.1"
+  },
+  "peerDependencies": {
+    "i18next": ">=13.0.1"
+  }
 }
